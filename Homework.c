@@ -7,6 +7,7 @@ void work1(char name[], int studentID, float score, char sex)
     printf("性別:%c\n", sex);
     printf("分數:%.1f\n", score);
 }
+
 int main()
 {
     char name[] = "黃正祐";
