@@ -2,6 +2,7 @@
 
 void homework3_2()
 {
+    float sum;
     int a = 48; // 0011 0000
     int b = 51; // 0011 0011
     a = a << 2; // 1100 0000
@@ -10,6 +11,8 @@ void homework3_2()
     printf("%d\n", b);
     b = ~b;
     printf("%d\n", b);
+    sum = a ^ b;
+    printf("%f\n", sum);
 }
 int main()
 {
